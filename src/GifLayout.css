@@ -1,0 +1,39 @@
+.gif-data{
+    height:100%;
+}
+.gif-list-item{
+    list-style-type: none;
+    float: left;
+    width: 180px;
+    padding:10px;
+}
+.gif-list-item img{
+    transition: transform .2s;
+}
+.gif-list-item:hover {
+    transform: scale(1.1);
+}
+.gif-animated-image{
+    width: 100%;
+    height: auto;
+}
+.gif-still-image{
+    width: 100%;
+    height: auto;
+}
+.stop-animate{
+    display:none;
+}
+.start-animate{
+    display:block;
+}
+
+.masonry {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -8px; /* Adjustment for the gutter */
+    width: 100%;
+}
+
+
+

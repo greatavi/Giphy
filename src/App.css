@@ -1,0 +1,47 @@
+body{
+  box-sizing: border-box;
+  margin:30px;
+  background-color: #121212;
+  text-align: center;
+}
+.show{
+  display:inline-block;
+}
+.hide{
+  display:none;
+}
+.masonry-brick {
+  margin: 0 8px 8px 0;
+}
+#load-more-btn{
+  background-color: #004e39;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+#no-results{
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  color:white;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  80%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
