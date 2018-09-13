@@ -1,5 +1,7 @@
 # Giphy
 
+![](Giphy-react.gif)
+
 ## Overview:
 
 * On the page load autofocus will be on Search box and by default the page displays trending gifs.
