@@ -30,6 +30,7 @@ On search, it does the api calls and passes the fetched data to GifLayout
 * Could spend more time to do better layout (like mosaic)
 * Could also replace Load more button with Infinite Scroll 
 * Could use Redux for state management
+* Could make the Searchbox sticky using something like react-sticky to make it more user friendly
 
 
 
