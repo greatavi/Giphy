@@ -1,6 +1,6 @@
 # Giphy
 
-![](Giphy-react.gif)
+![](Giphy_react.gif)
 
 ## Overview:
 
